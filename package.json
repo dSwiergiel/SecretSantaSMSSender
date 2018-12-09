@@ -1,0 +1,14 @@
+{
+  "name": "secret-santa-sms-sender",
+  "version": "1.0.0",
+  "description": "A quick Node.js app that takes a list of contacts and their phone numbers, randomizes the list and sends each contact an SMS message containing who they are to buy for.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deven Swiergiel",
+  "license": "MIT",
+  "dependencies": {
+    "nexmo": "^2.4.0"
+  }
+}
