@@ -7,6 +7,7 @@ var Santee = Santa.slice();
 // register API
 const nexmo = require("./config");
 const from = "Your nexmo virtual number"
+var to, text;
 
 secretSanta();
 
@@ -25,9 +26,9 @@ async function secretSanta() {
     } else {
 
 
-      const to = Santa[0].contactNumber;
+       to = Santa[0].contactNumber;
 
-      const text =
+       text =
         "You, " +
         Santa[0].contactName +
         " have " +
